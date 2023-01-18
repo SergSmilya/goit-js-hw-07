@@ -8,7 +8,7 @@ const bodyEl = document.querySelector("body");
 
 const elementGalleryItem = galleryItems
   .map(({ preview, original, description }) => {
-    return ` 
+    return `
     <div class="gallery__item">
       <a class="gallery__link" href=${original}>
     <img
